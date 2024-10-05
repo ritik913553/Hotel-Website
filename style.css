@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans-serif';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #F7F7EE;
+}
+
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color:#5A6446;
+    padding: 5vw;
+}
+
+#page2 h1 {
+    color: #434B34;
+    font-size: 6.5vw;
+    text-align: center;
+    font-weight: 400;
+    font-family: PP woodland;
+    line-height:6.5vw;
+}
+#page2 h1 span{
+    font-family: PP woodland;
+}
+
+#page3part1 h1 span{
+    font-family: PP woodland;
+}

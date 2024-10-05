@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="page1" class="h-screen w-full relative">
+        <nav class="sticky top-[5px] flex justify-between px-10 py-7 pb-1 z-70">
+          <div class="icon">
+            <i class="ri-menu-line text-[2vw]"></i>
+          </div>
+          <div class="flex gap-4">
+            <button
+              class="font-sans hover:bg-[#E3E3C4] px-4 py-[1px] rounded-full border-[1px] text-md text-[#434B34] border-[#E3E3C4]"
+            >
+              Online Check-in
+            </button>
+            <button
+              class="font-sans px-4 py-[1px] rounded-full border-2 text-md bg-[#434B34] text-white border-transparent"
+            >
+              Book now
+            </button>
+          </div>
+        </nav>
+        <div
+          id="center"
+          class="opacity-95 text-[#434B34] leading-tight absolute z-70 left-[50%] transform -translate-x-[50%]"
+        >
+          <h1 class="text-center text-6xl mt-0">Hotel Odisej</h1>
+          <h3 class="uppercase text-center text-2xl -mt-2">mljet</h3>
+        </div>
+        <div
+          id="bgimage"
+          class="h-[47vh] w-[50vw] absolute top-[25%] left-[25%] -z-10 rounded-xl overflow-hidden"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/209/ALH_Odisej_exterior_aerial_07-scaled-2880x0.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="page2">
+        <h1 id="firsth1">Set within the</h1>
+        <h1>verdant pine and</h1>
+        <h1>oak tree forest of</h1>
+        <h1>Mljet National Park,</h1>
+        <h1>Hotel Odisej Mljet is</h1>
+        <h1>just two hours by</h1>
+        <h1>passenger or car</h1>
+        <h1>ferry from</h1>
+        <h1>Dubrovnik.</h1>
+      </div>
+      <div id="page3" class="min-h-[100vh] w-full">
+        <div id="page3part1" class="py-20 px-10 mt-10">
+          <h1
+            class="text-[#E3E3C4] text-center text-[5.7vw] leading-none font-medium"
+          >
+            Sweeping view of the
+          </h1>
+          <h1
+            class="text-[#E3E3C4] text-center text-[5.7vw] leading-none font-medium"
+          >
+            Adriatic in your Room
+          </h1>
+        </div>
+      </div>
+      <div id="page4" class="min-h-screen w-full p-12">
+        <div
+          class="room hover:text-white cursor-pointer h-40 w-full rounded-t-[20px] border-[2px] border-[#E3E3C4] flex justify-between overflow-hidden hover:bg-[#5B6647]"
+        >
+          <div
+            class="first-div bg-red-500 h-full w-1/4 relative left-[-25%] bg-red-300"
+          >
+            <img
+              class="h-full w-full"
+              src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/560/Classic-room-2-480x0.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="second-div h-full w-2/4 py-10 px-12 relative left-[-25%]">
+            <h1 class="font-['PP_woodland'] text-4xl">Classic Room</h1>
+            <h3 class="font-['PP_woodland'] text-md mt-3">
+              Comfortable rooms with impressive views.
+            </h3>
+          </div>
+          <div
+            class="last-div h-full w-1/4 flex items-end justify-end px-10 py-10"
+          >
+            <h1 class="px-5 py-1 text-white text-sm bg-[#5C6748] rounded-full">
+              01
+            </h1>
+          </div>
+        </div>
+
+        <div
+          class="room hover:text-white cursor-pointer h-40 w-full border-b-[2px] border-r-[2px] border-l-[2px] border-[#E3E3C4] flex justify-between overflow-hidden hover:bg-[#5B6647]"
+        >
+          <div class="first-div h-full w-1/4 relative left-[-25%]">
+            <img
+              class="h-full w-full"
+              src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/532/Superior-room-1-480x0.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="second-div w-2/4 py-8 px-12 relative left-[-25%]">
+            <h1 class="font-['PP_woodland'] text-4xl">Superior Room</h1>
+            <h3 class="font-['PP_woodland'] text-md mt-3 w-[30vw]">
+              Beautiful blue sea views are the center piece of every superior
+              room.
+            </h3>
+          </div>
+          <div
+            class="last-div h-full w-1/4 flex items-end justify-end px-10 py-10"
+          >
+            <h1 class="px-5 py-1 text-white text-sm bg-[#5C6748] rounded-full">
+              02
+            </h1>
+          </div>
+        </div>
+
+        <div
+          class="room hover:text-white h-44 cursor-pointer hover:bg-[#5B6647] w-full border-b-[2px] border-r-[2px] border-l-[2px] border-[#E3E3C4] flex justify-between overflow-hidden"
+        >
+          <div class="first-div w-1/4 relative left-[-25%]">
+            <img
+              class="h-full w-full"
+              src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/538/Deluxe-room-1-480x0.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="second-div w-2/4 py-8 px-12 relative left-[-25%]">
+            <h1 class="font-['PP_woodland'] text-4xl">Deluxe Room</h1>
+            <h3 class="font-['PP_woodland'] text-md mt-3 w-[30vw]">
+              Beyond the trees,a measuring view of the Adriatic Draw the eye in
+              a Deluxe Room.
+            </h3>
+          </div>
+          <div
+            class="last-div h-full w-1/4 flex items-end justify-end px-10 py-10"
+          >
+            <h1 class="px-5 py-1 text-white text-sm bg-[#5C6748] rounded-full">
+              03
+            </h1>
+          </div>
+        </div>
+
+        <div
+          class="room hover:text-white h-48 cursor-pointer hover:bg-[#5B6647] w-full border-b-[2px] border-r-[2px] border-l-[2px] border-[#E3E3C4] flex justify-between overflow-hidden"
+        >
+          <div class="first-div w-1/4 relative left-[-25%]">
+            <img
+              class="h-full w-full object-cover"
+              src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/542/Family-room-1-480x0.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="second-div w-2/4 py-8 px-12 relative left-[-25%]">
+            <h1 class="font-['PP_woodland'] text-4xl">Family Room</h1>
+            <h3 class="font-['PP_woodland'] text-md mt-3 w-[30vw]">
+              A balcony facing the sea or the lush parkland surrounding the
+              hotel create the calming connection with nature in family room.
+            </h3>
+          </div>
+          <div
+            class="last-div h-full w-1/4 flex items-end justify-end px-10 py-10"
+          >
+            <h1 class="px-5 py-1 text-white text-sm bg-[#5C6748] rounded-full">
+              04
+            </h1>
+          </div>
+        </div>
+
+        <div
+          class="room hover:text-white cursor-pointer hover:bg-[#5B6647] rounded-b-[20px] h-40 w-full border-b-[2px] border-r-[2px] border-l-[2px] border-[#E3E3C4] flex justify-between overflow-hidden"
+        >
+          <div class="first-div w-1/4 relative left-[-25%]">
+            <img
+              class="h-full w-full object-cover"
+              src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/552/Executive-suite-1-480x0.jpeg"
+              alt=""
+            />
+          </div>
+
+          <div class="second-div w-2/4 py-8 px-12 relative left-[-25%]">
+            <h1 class="font-['PP_woodland'] text-4xl">Executive Suite</h1>
+            <h3 class="font-['PP_woodland'] text-md mt-3 w-[30vw]">
+              A glorious sweeping views of the Adriatic from your private
+              balcony.
+            </h3>
+          </div>
+          <div
+            class="last-div h-full w-1/4 flex items-end justify-end px-10 py-10"
+          >
+            <h1 class="px-5 py-1 text-white text-sm bg-[#5C6748] rounded-full">
+              05
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="page5"
+        class="h-screen w-[300vw] pt-[5vw] pl-[4vw] pb-2 flex flex-wrap items-end gap-2 relative"
+      >
+        <div class="absolute w-[20vw] h-32  top-20 left-[25%] flex gap-4">
+          <h1><i class="left ri-arrow-left-line cursor-pointer px-5 py-1 rounded-full text-md text-[#5C6748] bg-[#A9AE9B] font-bold "></i></h1>
+          <h1> <span class="currentIdx">1</span> / 3</h1>
+          <h1><i class="right ri-arrow-right-line cursor-pointer px-5 py-1 rounded-full text-md text-[#5C6748] bg-[#A9AE9B] font-bold "></i></h1>
+        </div>
+        <div class="view bg-red-500 h-full w-[70vw] rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-full object-cover"
+            src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/213/ALH_Odisej_deluxe_seaview_balcony_double_01-scaled-800x0.jpg"
+            alt=""
+          />
+        </div>
+        <div class="view bg-red-500 h-3/5 w-[60vw] rounded-2xl overflow-hidden ">
+          <img
+            class="w-full h-full"
+            src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/211/ALH_Odisej_Rosemary_suite_05-scaled-800x0.jpg"
+            alt=""
+          />
+        </div>
+        <div class="view bg-red-500 h-3/5 w-[60vw] rounded-2xl overflow-hidden">
+          <img
+            class="w-full h-full"
+            src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/209/ALH_Odisej_exterior_aerial_07-scaled-2880x0.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="page6" class="h-screen w-full "></div>
+
+
+      <div id="page8" class="flex h-screen m-w-full gap-24 pt-10 relative">
+        <div class="faci1 w-1/2 h-full  rounded-r-2xl overflow-hidden ">
+          <img class=" h-full w-full object-cover" src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/230/ALH_Odisej_outsidepool_01-scaled-480x0.jpg" alt="">
+        </div>
+        <div class="text h-full w-[32vw] flex-col gap-2 absolute top-0 left-[33%]">
+          <h1 class="opacity-0 mt-20 text-center text-7xl text-[#464E37] font-['PP_woodland']">Relaxing <br> treatments</h1>
+          <h1 class="opacity-0 mt-10 text-center text-md  text-[#464E37] font-['PP_woodland']">Massage, sauna sessions, beauty treatments such as pedicures and manicures, a fitness room, an outdoor children's pool filled with sea water or a sun terrace to relax on.</h1>
+          <div class="bottom flex  gap-7 justify-center mt-28 items-center opacity-1">
+            <h2 class="text-4xl font-[sans]  text-[#464E37] " >Explore Wellness</h2>
+            <i class="ri-arrow-right-line px-5 py-1 bg-[#464E37] rounded-2xl text-white"></i>
+          </div>
+        </div>
+        <div class="faci2 w-1/2 h-full  rounded-l-2xl overflow-hidden ">
+          <img class="h-full w-full object-cover" src="https://hotelodisej.com/wp-content/uploads/bf-advanced-images/388/alh-img-2-480x0.jpeg" alt="">
+        </div>
+        
+      </div>
+
+      <div id="page6" class="h-screen w-full "></div>
+
+      <footer class="h-screen w-full bg-[#03364F] p-14 pt-20 ">
+        <h1 class="text-center font-['PP_woodland'] text-white text-6xl">Hotel Odisej</h1>
+        <h3 class="text-center font-['PP_woodland'] opacity-70 mt-2 tracking-wider text-white text-xl uppercase " >Mljet</h3>
+        <div class="flex justify-between text-center items-center mt-20 text-white text-lg font-sans border-b-[0.5px] border-opacity-50 font-normal pb-3 border-inherit ">
+          <h1 class="uppercase">Pomena 16, 20226, Pomena, Croatia</h1>
+          <h1 class="transform -translate-x-[40%]">RESERVATIONS@ALH.HR</h1>
+          <h1>+385 20 300 300</h1>
+        </div>
+        <div class="flex justify-between pb-2  uppercase mt-32 text-center items-center text-white text-lg font-sans border-b-[0.5px] border-opacity-50 font-normal border-inherit ">
+          <h1 class="cursor-pointer font-light">feacebook</h1>
+          <h1 class="cursor-pointer ['PP_woodland']">instagram</h1>
+          <h1 class="cursor-pointer font-['PP_woodland']">pinterest</h1>
+        </div>
+        <div class="mt-2 flex justify-between uppercase font-light  text-center items-center text-white text-lg font-sans ">
+          <h1 class="cursor-pointer font-['PP_woodland']">Contact Us</h1>
+          <h1 class="cursor-pointer ['PP_woodland'] transform translate-x-[20%]">Privacy Policy and Cookies</h1>
+          <h1 class="cursor-pointer font-['PP_woodland']">Written Complaints</h1>
+        </div>
+        <div class="flex justify-between mt-28 text-white text-sm ">
+          <h1 class="font-['PP_woodland']">ALH GROUP MEDIA All Rights Reserved</h1>
+          <h1 class="font-['PP_woodland']">Design & Developement by BORNFIGHT STUDIO®</h1>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
