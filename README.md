@@ -23,7 +23,7 @@ A visually stunning, pixel-perfect clone of the [Hotel Odisej](https://hotelodis
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/Hotel-Website.git
+   git clone https://github.com/ritik913553/Hotel-Website.git
    ```
 2. Navigate to the project directory:
    ```bash
